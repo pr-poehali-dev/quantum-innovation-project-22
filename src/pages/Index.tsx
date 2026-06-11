@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">ВКУСНО*И ТОЧКА</div>
+        <div className="logo">FLAME*BITE</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
@@ -51,7 +51,7 @@ export default function Index() {
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * ВКУСНО И ТОЧКА * СМЭШ-БУРГЕРЫ ИЗ МРАМОРНОЙ ГОВЯДИНЫ * ОТКРЫТЫ ДО 23:00 * ТОЛЬКО ОГОНЬ * ВКУСНО И ТОЧКА * СМЭШ-БУРГЕРЫ ИЗ МРАМОРНОЙ ГОВЯДИНЫ * ОТКРЫТЫ ДО 23:00 * ТОЛЬКО ОГОНЬ
+            &nbsp; * FLAMEBITE * СМЭШ-БУРГЕРЫ ИЗ МРАМОРНОЙ ГОВЯДИНЫ * ОТКРЫТЫ ДО 23:00 * ТОЛЬКО ОГОНЬ * FLAMEBITE * СМЭШ-БУРГЕРЫ ИЗ МРАМОРНОЙ ГОВЯДИНЫ * ОТКРЫТЫ ДО 23:00 * ТОЛЬКО ОГОНЬ
           </div>
         </div>
 
@@ -125,7 +125,7 @@ export default function Index() {
               </span>
               <img
                 src="https://cdn.poehali.dev/projects/c7bc3abf-1ddf-4145-8fa9-d14f7776c3f6/files/db7f4b43-06dc-4506-bbb4-2d5d0d0bed6a.jpg"
-                alt="Вкусно и Точка"
+                alt="FlameBite"
               />
               <div className="menu-card-body">
                 <div
@@ -136,7 +136,7 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Вкусно и Точка</h3>
+                  <h3>FlameBite</h3>
                   <span className="price">550 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
@@ -162,7 +162,7 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VKUSNO.TOCHKA
+            @FLAMEBITE
           </h2>
           <div className="social-grid">
             <div className="social-item">
@@ -195,7 +195,7 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">ВКУСНО*И ТОЧКА</div>
+          <div className="footer-logo">FLAME*BITE</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
             Бургерная с ретро-душой. Настоящее мясо, живой огонь и вайб 70-х. С 2024, но ощущается как 1974.
           </p>
@@ -235,7 +235,7 @@ export default function Index() {
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2024 ВКУСНО И ТОЧКА</span>
+          <span>2024 FLAMEBITE</span>
           <span>БУРГЕРЫ БЕЗ КОМПРОМИССОВ</span>
           <span>VK / TG / TK</span>
         </div>

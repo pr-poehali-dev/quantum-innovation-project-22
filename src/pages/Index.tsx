@@ -398,6 +398,17 @@ export default function Index() {
           <h4 style={{ marginTop: "20px" }}>Адрес</h4>
           <ul>
             <li>пр. Ленина, 22</li>
+            <li style={{ marginTop: "10px" }}>
+              <a
+                href="https://yandex.ru/maps/?text=проспект+Ленина+22"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-cta"
+                style={{ display: "inline-block", fontSize: "12px", padding: "8px 16px", textDecoration: "none" }}
+              >
+                Как добраться
+              </a>
+            </li>
           </ul>
         </div>
         <div className="footer-bottom">

@@ -392,10 +392,12 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн-Вс: 09:00 - 23:00</li>
+            <li>Без выходных</li>
+          </ul>
+          <h4 style={{ marginTop: "20px" }}>Адрес</h4>
+          <ul>
+            <li>пр. Ленина, 22</li>
           </ul>
         </div>
         <div className="footer-bottom">

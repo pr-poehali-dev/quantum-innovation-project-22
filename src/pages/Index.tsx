@@ -227,6 +227,87 @@ export default function Index() {
                 </p>
               </div>
             </div>
+
+            {/* Item 7 */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "#2c2c2c", color: "#d4af37" }}>
+                Премиум
+              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/c7bc3abf-1ddf-4145-8fa9-d14f7776c3f6/files/10c846f0-2794-469e-97a9-a175b6de6521.jpg"
+                alt="Чёрный Трюфель"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Чёрный Трюфель</h3>
+                  <span className="price">790 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Смэш из мраморной говядины, бри, трюфельный соус, руккола, карамелизованный лук. Бургер с характером.
+                </p>
+              </div>
+            </div>
+
+            {/* Item 8 */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "#b85c00", color: "white" }}>
+                Тяжёлый
+              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/c7bc3abf-1ddf-4145-8fa9-d14f7776c3f6/files/cf66816a-0418-4df8-8217-571fa97ec9d3.jpg"
+                alt="Пулд Порк"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Пулд Порк</h3>
+                  <span className="price">570 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Свинина томлёная 12 часов, коул-слоу, маринованный халапеньо, мёд-горчица. Тот самый вайб.
+                </p>
+              </div>
+            </div>
+
+            {/* Item 9 */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--secondary)", color: "white" }}>
+                Море
+              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/c7bc3abf-1ddf-4145-8fa9-d14f7776c3f6/files/e9d9ac41-ca72-4aff-87ac-3a0773ce13e6.jpg"
+                alt="Шримп Байт"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Шримп Байт</h3>
+                  <span className="price">620 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Хрустящие тигровые креветки, острый майонез, авокадо, айсберг и лайм. Море в каждом укусе.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 

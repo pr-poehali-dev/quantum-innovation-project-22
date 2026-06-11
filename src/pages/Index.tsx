@@ -121,7 +121,7 @@ export default function Index() {
             {/* Item 3 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Популярное
+                Народный выбор
               </span>
               <img
                 src="https://cdn.poehali.dev/projects/c7bc3abf-1ddf-4145-8fa9-d14f7776c3f6/files/db7f4b43-06dc-4506-bbb4-2d5d0d0bed6a.jpg"
@@ -141,6 +141,87 @@ export default function Index() {
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
                   Фирменный бургер: двойная котлета, трюфельный соус, чеддер, свежие томаты и айсберг. Без компромиссов.
+                </p>
+              </div>
+            </div>
+
+            {/* Item 4 */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "#8B4513", color: "white" }}>
+                Новинка
+              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/c7bc3abf-1ddf-4145-8fa9-d14f7776c3f6/files/70bae675-8407-46cc-9e4b-7c4437b9fc34.jpg"
+                alt="Смоки Бэкон"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Смоки Бэкон</h3>
+                  <span className="price">520 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Говядина смэш, хрустящий бекон, BBQ-соус, чеддер, карамелизованный лук. Дымно и по-настоящему.
+                </p>
+              </div>
+            </div>
+
+            {/* Item 5 */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "#556B2F", color: "white" }}>
+                Вегетарианское
+              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/c7bc3abf-1ddf-4145-8fa9-d14f7776c3f6/files/5c4d2c68-40d9-4202-a995-64624d2e846f.jpg"
+                alt="Гриб Швейцар"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Гриб Швейцар</h3>
+                  <span className="price">420 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Жареные шампиньоны, швейцарский сыр, чесночный айоли, руккола. Не мясо — но тоже огонь.
+                </p>
+              </div>
+            </div>
+
+            {/* Item 6 */}
+            <div className="menu-card">
+              <span className="menu-tag" style={{ background: "var(--primary)", color: "white" }}>
+                Хардкор
+              </span>
+              <img
+                src="https://cdn.poehali.dev/projects/c7bc3abf-1ddf-4145-8fa9-d14f7776c3f6/files/85de4934-9657-4962-8a63-7d1de077a3c3.jpg"
+                alt="Дабл Дэмидж"
+              />
+              <div className="menu-card-body">
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "10px",
+                  }}
+                >
+                  <h3>Дабл Дэмидж</h3>
+                  <span className="price">690 ₽</span>
+                </div>
+                <p style={{ fontSize: "14px", color: "#666" }}>
+                  Две котлеты смэш, двойной чеддер, фирменный соус, маринованные огурцы — максимальный урон по аппетиту.
                 </p>
               </div>
             </div>

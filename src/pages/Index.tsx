@@ -11,7 +11,7 @@ export default function Index() {
           <a href="#">Акции</a>
           <a href="#">Адрес</a>
         </nav>
-        <button className="btn-cta">Заказать</button>
+        <a href="https://t.me/flamebite" target="_blank" rel="noopener noreferrer"><button className="btn-cta">Заказать</button></a>
       </header>
 
       <main>
@@ -26,9 +26,11 @@ export default function Index() {
               Настоящие смэш-бургеры из мраморной говядины. Никакой воды — только мясо, огонь и фирменный соус. Ретро-вайб, который хочется пережить снова.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
-              <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать сейчас
-              </button>
+              <a href="https://t.me/flamebite" target="_blank" rel="noopener noreferrer">
+                <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
+                  Заказать сейчас
+                </button>
+              </a>
               <button className="btn-cta" style={{ background: "white" }}>
                 Смотреть меню
               </button>
